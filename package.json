@@ -1,0 +1,20 @@
+{
+  "name": "langgraph-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx agent.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.10",
+    "@langchain/core": "^0.3.15",
+    "@langchain/langgraph": "^0.2.18",
+    "@langchain/openai": "^0.3.11",
+    "dotenv": "^16.4.5"
+  }
+}
